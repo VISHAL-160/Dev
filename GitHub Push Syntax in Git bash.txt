@@ -1,0 +1,30 @@
+GitHub Push Any File,
+
+1- go to the directory where or what file u want to upload in GitHub 
+cd /d/Vishal/hibernate
+
+2-initialized GitHub
+git init
+
+3-give url of guthib repository where u want to upload
+git remote add origin https://github.com/VISHAL-160/Dev.git
+
+4-give file name
+git add file_name
+
+or to add all file just write 
+
+git add .
+
+5-commit this file
+
+git commit -m "---------something---------"
+
+6-push to master if using master 
+
+git push -u origin master 
+
+or if main then 
+
+git push -u origin main 
+ 
